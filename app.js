@@ -8,20 +8,20 @@ document.writeln(`ceil Value : ${Math.ceil(posNum)}<br><br>`)
 
 
 
-// setTimeout(function () {
-// let negNum = Number(prompt("Enter any negative Number with Floating point(decimal num)"))
-// document.writeln(`Num : ${negNum}<br>`)
-// document.writeln(`round off value : ${Math.round(negNum)}<br>`)
-// document.writeln(`floor Value : ${Math.floor(negNum)}<br>`)
-// document.writeln(`ceil Value : ${Math.ceil(negNum)}<br><br>`)
-// } ,400 )
+setTimeout(function () {
+let negNum = Number(prompt("Enter any negative Number with Floating point(decimal num)"))
+document.writeln(`Num : ${negNum}<br>`)
+document.writeln(`round off value : ${Math.round(negNum)}<br>`)
+document.writeln(`floor Value : ${Math.floor(negNum)}<br>`)
+document.writeln(`ceil Value : ${Math.ceil(negNum)}<br><br>`)
+} ,400 )
 
 
 
-// setTimeout(function () {
-// let absNum = parseFloat (prompt("Enter any negative Number"))
-// document.writeln(`The absolute value of ${absNum} is ${Math.abs(absNum)}<br><br>`)
-//  },600)
+setTimeout(function () {
+let absNum = parseFloat (prompt("Enter any negative Number"))
+document.writeln(`The absolute value of ${absNum} is ${Math.abs(absNum)}<br><br>`)
+ },600)
 
 
  
@@ -56,7 +56,19 @@ document.writeln(`The Number between 1 to 100 is : ${ranNum}<br><br>`)
  },1600)
 
 
- // setTimeout(function () {
-// let userkg = parseFloat (prompt("Tell me your weight in kgs"))
-// document.writeln(`The weight of user is :  ${userkg}`)
-//  },1800)
+ setTimeout(function () {
+let userkg = parseFloat (prompt("Tell me your weight in kgs"))
+document.writeln(`The weight of user is :  ${userkg}`)
+ },1800)
+
+
+ setTimeout(function () {
+let num = Math.round(Math.random() * 10)
+let guessNum = +prompt("Guess the Num from 1 to 10")
+if (guessNum === num) {
+    alert("Congratulation")
+}
+else{
+    alert(`correct Number is : ${num}`)
+}
+} , 2100)
