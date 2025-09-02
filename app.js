@@ -28,11 +28,11 @@ document.writeln(`The absolute value of ${absNum} is ${Math.abs(absNum)}<br><br>
 setTimeout(function () {
         let dice = Math.round(Math.random() * 10);
         if (dice > 6) {
-            document.writeln(`random dice value : 6 <br><br>`);
+            document.writeln(`random dice value : 6 <br><br>`)
         } else if (dice < 1) {
-            document.writeln(`random dice value : 1 <br><br>`);
+            document.writeln(`random dice value : 1 <br><br>`)
         } else {
-            document.writeln(`random dice value : ${dice} <br><br>`);
+            document.writeln(`random dice value : ${dice} <br><br>`)
         }
 }, 1000)
 
@@ -42,9 +42,9 @@ setTimeout(function () {
 setTimeout(function () {
         let coin = Math.round(Math.random() * 10);
         if (coin > 5) {
-            document.writeln(`random coin value : Heads <br><br>`);
+            document.writeln(`random coin value : Heads <br><br>`)
         } else if (coin < 5) {
-            document.writeln(`random coin value : Tails <br><br>`);
+            document.writeln(`random coin value : Tails <br><br>`)
         }
 }, 1400)
 
